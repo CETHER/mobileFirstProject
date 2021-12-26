@@ -443,7 +443,7 @@ main {
   min-width: 288px;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .plans--title h2 {
@@ -477,7 +477,7 @@ main {
   min-width: 190px;
   max-width: 300px;
   height: 250px;
-  margin: 50px 20px 0;
+  margin: 50px 10px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
@@ -553,4 +553,51 @@ main {
   height: 20px;
   background-image: url('./assets/icons/arrow-right.svg');
   vertical-align: text-bottom;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+
+footer section {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer__left ul{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+
+.footer__left li {
+  margin: 10px 0;
+
+}
+
+.footer__left a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.footer__right p {
+  margin: 10px 0;
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: var(--just-white);
+
 }
